@@ -5,6 +5,51 @@
     --accent1-color: #8EA4D2;
 }
 
+header {
+    background-color: var(--accent1-color);
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+header img {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+header nav {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: center;
+    font-size: 1.5rem;
+    justify-content: space-between;
+}
+
+.historysections {
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+}
+
+.historysections img {
+    width: 200px;
+}
+
+.historysections div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.historysections p {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.historysections h2 {
+    display: flex;
+    justify-content: center;
+}
+
 #background-pic {
     display: block;
     width: 100%;
