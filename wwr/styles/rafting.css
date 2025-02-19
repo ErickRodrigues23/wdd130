@@ -1,3 +1,8 @@
+html, body {
+    width: 100vw;
+    height: 100vh;
+  }
+
 :root {
     --primary-color: #6279B8;
     --secondary-color: #496F5D;
@@ -33,16 +38,18 @@ header nav {
 }
 
 .historysections img {
-    width: 200px;
+    width: 350px;
+    height: 250px;
+    padding: 10px;
 }
 
 .historysections div {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    justify-content: space-between;
+
 }
 .historysections p {
-    display: flex;
-    flex-wrap: wrap;
+    text-wrap: wrap;
 }
 
 .historysections h2 {
@@ -50,16 +57,46 @@ header nav {
     justify-content: center;
 }
 
+.fiveimages div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    /* display: grid;
+    grid-template-rows: repeat(8, 5vw);
+    grid-gap: 15px; */
+}
+
+.fiveimages h2{
+    display: flex;
+    justify-content: center;
+}
+
+.fiveimages img {
+    display: block;
+    width: 210px;
+    height: 180px;
+    padding: 1px;
+}
+
+.fiveimages figure {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
 #background-pic {
     display: block;
     width: 100%;
     height: auto;
+    opacity: 0.5;
 }
 
 .hero {
-    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
-    background-color: darkblue;
 }
 
 nav {
@@ -67,19 +104,21 @@ nav {
     padding: 50px;
 }
 
-p {
+.hero p {
     color: black;
     width: 700px;
     padding: 10px;
 }
 
+
+
 h1 {
     color: var(--secondary-color);
     background-color: aliceblue;
-    opacity: 0.8;
+    /* opacity: 0.8; */
     position: absolute;
     top: 10px;
-    left: 300px;
+    
 }
 
 h2 {
@@ -89,14 +128,35 @@ h2 {
 article {
     position: absolute;
     background-color: var(--primary-color);
-    opacity: 0.7;
     width: 1300px;
-    /*top: 100px;*/
-    bottom: 130px;
-    left: 60px;
+    /* bottom: 130px;
+    left: 60px; */
 }
 
 article img {
     float: right;
     width: 300px;
+} 
+
+footer {
+    background-color:var(--accent1-color) ;
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr 1fr;
 }
+
+footer p {
+    text-align: center;
+    margin: auto;
+    width: 100%;
+}
+
+.sociallinks img {
+    width: 40px;
+    padding: 2px;
+}
+
+.sociallinks nav{
+     width: 600px; 
+    display: flex;
+    flex-direction: row;
+} 
