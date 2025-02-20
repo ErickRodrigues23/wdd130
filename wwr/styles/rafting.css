@@ -112,7 +112,7 @@ nav {
 
 
 
-h1 {
+.hero h1 {
     color: var(--secondary-color);
     background-color: aliceblue;
     /* opacity: 0.8; */
@@ -142,6 +142,7 @@ footer {
     background-color:var(--accent1-color) ;
     display: grid;
     grid-template-columns: 2fr 2fr 1fr 1fr;
+    align-items: center;
 }
 
 footer p {
@@ -156,7 +157,110 @@ footer p {
 }
 
 .sociallinks nav{
-     width: 600px; 
+    width: 600px; 
     display: flex;
     flex-direction: row;
 } 
+
+/* ---------------------------------------------Contact Us page------------------------------------------------------------- */
+
+.beginning {
+    background-color: var(--secondary-color);
+    height: 200px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.outsidesales {
+    display: flex;
+    justify-content: center;
+}
+
+.salesdep {
+     height: 200px;
+     margin-top: 10px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     text-align: center;
+     font-size: 20px;
+     border-color: black;
+     border-style: solid;
+     width: 500px;
+     padding: 20px;
+}
+
+.location {
+    height: 400px;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    align-items: center;
+}
+
+.locationinfo {
+     display: flex;
+     justify-content: center;
+     align-items: left;
+     flex-direction: column;
+     text-align: left;
+     font-size: 15px;
+     padding: 100px;
+}
+
+.workerssec {
+    height: 1850px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.workerssec h2 {
+    padding: 80px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.workertext {
+    text-align: center;
+    padding: 50px;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+}
+
+.workerssec img {
+    width: 400px;
+}
+
+.formpart{
+    display: flex ;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    background-color: var(--accent1-color);
+    border-bottom: black;
+    border-style: solid;
+}
+
+#sendbutton {
+    cursor: pointer;
+    padding: 8px 16px;
+    background-color: var(--secondary-color);
+    color: white;
+    
+}
+.formpart div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
