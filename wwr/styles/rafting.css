@@ -165,7 +165,7 @@ footer p {
 
 .beginning {
     background-color: var(--secondary-color);
-    height: 200px;
+    height: 500px;
     margin-top: 10px;
     display: flex;
     justify-content: center;
