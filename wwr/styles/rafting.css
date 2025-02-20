@@ -304,12 +304,12 @@ h1 {
     text-shadow: 2px 2px black;
 }
 
-.homeban button:hover {
+.callbutton:hover {
     background-color: whitesmoke;
     color: var(--secondary-color);
 }
 
-.homeban button {
+.callbutton {
     cursor: pointer;
     padding: 20px 30px;
     font-size: 18px;
@@ -375,3 +375,16 @@ h1 {
     margin-right: 40px;
     justify-content: end;
  }
+
+ /* ---------------------------------------------------Trips Page------------------------------------------------------------ */
+
+.tripstop article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tripstop {
+    padding: 30px;
+}
