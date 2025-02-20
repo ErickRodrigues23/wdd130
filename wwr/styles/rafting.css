@@ -252,13 +252,22 @@ footer p {
     border-style: solid;
 }
 
-#sendbutton {
+.sendbutton {
     cursor: pointer;
-    padding: 8px 16px;
+    padding: 10px 20px;
     background-color: var(--secondary-color);
     color: white;
+    transition-duration: 0.5s;
+}
+
+.sendbutton:hover {
+    background-color: whitesmoke;
+    color: var(--secondary-color);
+    border: 2px solid var(--secondary-color);
     
 }
+
+
 .formpart div {
     display: flex;
     justify-content: center;
