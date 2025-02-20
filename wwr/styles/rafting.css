@@ -124,7 +124,7 @@ h2 {
     color: var(--secondary-color);
 }
 
-article {
+.hero article {
     position: absolute;
     background-color: var(--primary-color);
     width: 1300px;
@@ -132,7 +132,7 @@ article {
     left: 60px; */
 }
 
-article img {
+.hero article img {
     float: right;
     width: 300px;
 } 
@@ -271,3 +271,107 @@ footer p {
     justify-content: center;
     align-items: center;
 }
+
+/* ----------------------------------------------Home page-------------------------------------------------------------- */
+
+#homebackground {
+    width: 100% ;
+}
+
+.homeban {
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+}
+
+.homeban article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    color: white;
+}
+
+.homeban p {
+    font-size: 30px;
+    text-shadow: 2px 2px black;
+}
+
+h1 {
+    font-family: "Germania one", sans-serif;
+    font-size: 80px;
+    text-shadow: 2px 2px black;
+}
+
+.homeban button:hover {
+    background-color: whitesmoke;
+    color: var(--secondary-color);
+}
+
+.homeban button {
+    cursor: pointer;
+    padding: 20px 30px;
+    font-size: 18px;
+    background-color: var(--secondary-color);
+    color: white;
+    transition-duration: 0.5s;
+}
+
+.gridpics {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top : 100px;
+    padding-bottom : 100px;
+}
+
+.gridpics figure {
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+    font-family: "Germania one", sans-serif;
+    color: gray;
+
+}
+
+.newsletter h2 {
+    text-shadow: 2px 2px black;
+    font-size: 40px;
+}
+
+.gridpics img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border: 2px black solid;
+}
+
+.newsletter {
+    position: relative;
+    background-color: var(--secondary-color);
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.newsletter img {
+    width: 900px;
+}
+
+.newsletterback {
+    background-color: var(--accent2-color);
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+ .backdiv {
+    position: absolute;
+    display: flex;
+    width: 95%;
+    margin-right: 40px;
+    justify-content: end;
+ }
